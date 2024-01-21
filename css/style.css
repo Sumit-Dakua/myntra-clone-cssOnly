@@ -28,7 +28,7 @@ img{
   display:flex;
   justify-content:space-between;
   flex-grow:2;
-
+  min-width: 400px;
 }
 
 .nav-items{
@@ -40,7 +40,11 @@ img{
   margin:10px 5px;
   padding:2px 2px;
   height:10px;
-  width:200px;
+  width:350px;
+
+}
+#search-bar{
+  min-width:300px;
 }
 #action-container{
   margin-right:2%;
@@ -49,6 +53,7 @@ img{
   flex-direction:row-reverse;
   justify-content:center;
   justify-self: end;
+  min-width: 150px;
 }
 
 .action-items{
